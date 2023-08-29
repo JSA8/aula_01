@@ -1,0 +1,10 @@
+preço_produto = (float(input("qual o valor do Prduto ?")))
+quantidade_produto = (int(input("Digite a quantidade")))
+valor_total_compra = (preço_produto*quantidade_produto)
+print(f"o valor total da sua compra foi de  R$ {valor_total_compra:.2f}")
+
+print("\n\n")
+
+desconto =   valor_total_compra -(valor_total_compra*0.10)
+
+print(f"o valor de desconto é de {desconto:.2f}%")

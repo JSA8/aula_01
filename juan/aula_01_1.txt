@@ -1,0 +1,11 @@
+salario = (float(input("qual seu salario ?")))
+aumento = salario*0.25
+print("o valor do aumento foi de R$", aumento)
+
+
+
+
+#Formatando as casas decimais
+print("\n\n")
+print(f"o valor do aumento foi de R$ {aumento:.2f}")
+print(f"novo salario foi de R$ {aumento+salario:.2f}")
